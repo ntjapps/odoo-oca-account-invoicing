@@ -2,6 +2,7 @@
 # Copyright 2026 NTJ (https://www.ntj.co.id)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
+# v19-incompat: Removed in v19: res.partner.invoice_warn Selection field gone.
 {
     "name": "Account Invoice Warn Message",
     "summary": """
@@ -11,5 +12,5 @@
     "author": "ForgeFlow, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/account-invoicing",
     "depends": ["account"],
-    "data": ["views/account_move_views.xml"],
+    "data": ["views/account_move_views.xml"],    "installable": False,
 }
